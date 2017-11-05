@@ -1,0 +1,97 @@
+body {
+    background-image: url("../images/back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    height: 100vh;
+    
+}
+
+.container {
+    min-height: 100%;
+}
+
+#boxRow {
+    margin-top: 50vh
+}
+
+#crystalRow {
+    margin-top: 5vh;
+    text-align: center;
+}
+
+#scoreRow {
+    margin-top: 5vh;
+}
+
+
+
+#sumBox, #targetBox {
+    height: 100px;
+    width: 150px;
+    
+    margin: 0 auto;
+    
+    background-image: url("../images/wood.jpg");
+    background-size: cover;
+    
+    color: white;
+    font-family: 'Rozha One', serif;
+    font-size: 2em;
+    text-align: center;
+    
+    border: 4px solid #fff8dc;
+    border-radius: 2px;
+    box-shadow: -5px 5px 10px #000;
+}
+#crystalOne, #crystalTwo, #crystalThree, #crystalFour {
+    width: 75px;
+    
+    border: 4px solid #fff8dc;
+    border-radius: 2px;
+    box-shadow: -5px 5px 10px #000;
+}
+
+#numWins, #numLoss {
+    display: inline-block;
+    width: 49%;
+    
+    color: #fff8dc;
+    font-family: 'Rozha One', serif;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    
+    border: 4px solid #fff8dc;
+    box-shadow: -5px 5px 10px #000;
+}
+
+#numLoss {
+    box-shadow: 0 5px 10px #000;
+}
+
+@media screen and (max-width: 640px) {
+    #crystalOne, #crystalTwo, #crystalThree, #crystalFour {
+        width: 60px;
+    }
+
+
+    body {
+        background-image: url("../images/back2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #sumBox, #targetBox {
+        height: 80px;
+        width: 120px;
+    }
+    
+    #crystalOne, #crystalTwo, #crystalThree, #crystalFour {
+        width: 50px;
+    }
+    
+}
